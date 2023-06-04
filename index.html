@@ -26,8 +26,10 @@
           </a>
 
           <ul class="nav-list list">
-            <li class="nav-item">
-              <a href="./index.html" class="header-nav-item link-text link"
+            <li class="nav-item nav-item-active">
+              <a
+                href="./index.html"
+                class="header-nav-item link-text link nav-link-active"
                 >Studio</a
               >
             </li>
@@ -537,7 +539,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-btn" data-modal-close>x</button>
+        <button type="button" class="modal-btn" data-modal-close>
+          <svg class="modal-btn-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
