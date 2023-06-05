@@ -483,7 +483,11 @@ img {
 }
 
 
-.gallery-item:is(:hover, :focus) .gallery-cover-text {
+.gallery-item:hover .gallery-cover-text {
+    transform: translateY(0);
+}
+
+.gallery-item:focus .gallery-cover-text {
     transform: translateY(0);
 }
 
